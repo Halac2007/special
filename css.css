@@ -6,8 +6,7 @@
 
 body {
   color: #292f36;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   line-height: 1.5;
 }
 
@@ -772,7 +771,8 @@ q {
 
 .overview p {
   margin: 0 0 1em;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  line-height: 1.7;
   font-weight: 200;
 }
 
@@ -1105,6 +1105,9 @@ figcaption {
   blockquote {
     font-size: 1.3rem;
   }
+  .hdr-content {
+    padding: 0px 10px;
+  }
 }
 
 /* 
@@ -1217,12 +1220,15 @@ footer {
 @media only screen and (max-width: 767px) and (min-width: 500px) {
 }
 @media only screen and (max-width: 499px) and (min-width: 425px) {
+  .hdr-content {
+    padding: 0px 10px;
+  }
   .hdr-content .logo {
     width: 100px;
     height: 30px;
   }
   .headline-logo {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .srch {
     font-size: 0.8rem;
