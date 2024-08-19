@@ -1237,7 +1237,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 375px) {
   .navigation {
     display: none;
   }
@@ -1257,5 +1257,9 @@ footer {
   blockquote {
     font-size: 1.5rem;
     max-width: 90%;
+  }
+  .hdr-content .logo {
+    width: 100px;
+    height: 38px;
   }
 }
