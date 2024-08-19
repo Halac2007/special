@@ -74,6 +74,7 @@ header h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-shadow: 8px 8px 10px #b3b0b08c;
 }
 
 a {
@@ -207,7 +208,6 @@ a {
 }
 
 .srch {
-  font-family: "Times New Roman";
   width: 200px;
   height: 40px;
   background: transparent;
@@ -383,12 +383,13 @@ a {
   text-align: center;
   z-index: 1;
   border-radius: 5px;
+  padding: 10px;
 }
 
 .wrap-fullwidth .text h1 {
   font-size: 3.5rem;
   line-height: 1.1;
-  font-family: "Share Tech", sans-serif;
+
   letter-spacing: 1px;
   color: white;
 
@@ -1084,12 +1085,25 @@ figcaption {
     left: calc(50% + 420px);
     opacity: 0;
   }
+  p {
+    text-align: justify;
+  }
 }
 
 @media (max-width: 425px) {
   .icon {
     width: 1rem;
     height: 1rem;
+  }
+
+  .navigation {
+    display: none;
+  }
+  .headline-logo {
+    left: 84%;
+  }
+  blockquote {
+    font-size: 1.3rem;
   }
 }
 
